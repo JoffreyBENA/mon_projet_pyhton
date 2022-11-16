@@ -1,6 +1,7 @@
 list=[10,20,30,40,50]
 print (list)
+
+total=0
 for i in list:
-    print (i)
-    if i==50:
-        break
+    total=total+i
+print(total)
